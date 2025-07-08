@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/gustavobahia11/APIREST/ApiREST/models"
+	"github.com/gustavobahia11/APIREST/models"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

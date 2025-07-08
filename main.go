@@ -3,8 +3,8 @@ package main
 import (
 	//"net/http"
 
-    "github.com/gustavobahia11/APIREST/ApiREST/controllers"
-    "github.com/gustavobahia11/APIREST/ApiREST/models"
+    "github.com/gustavobahia11/APIREST/controllers"
+    "github.com/gustavobahia11/APIREST/models"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,4 +1,4 @@
-module github.com/gustavobahia11/APIREST/ApiREST
+module github.com/gustavobahia11/APIREST
 
 go 1.24.4
 
