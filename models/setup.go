@@ -1,6 +1,9 @@
 package models
 
 import (
+	"log"
+	"os"
+
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -8,7 +11,11 @@ import (
 var DB *gorm.DB
 
 func ConnectDB() {
-	dsn := "host=localhost user=postgres password=123456 dbname=userapi port=5433 sslmode=disable TimeZone=UTC"
+	dsn := os.Getenv("DATABASE_URL")
+
+	if dsn == "" {
+		log.Fatal("dsn not defined")
+	}
 
 	database, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 
