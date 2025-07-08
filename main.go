@@ -3,8 +3,8 @@ package main
 import (
 	//"net/http"
 
-	"Users/jader/APIREST/controllers"
-	"Users/jader/APIREST/models"
+    "github.com/gustavobahia11/APIREST/ApiREST/controllers" // Este é o caminho correto agora
+    "github.com/gustavobahia11/APIREST/ApiREST/models"
 
 	"github.com/gin-gonic/gin"
 )

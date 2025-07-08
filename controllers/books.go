@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"Users/jader/APIREST/models"
+	"github.com/gustavobahia11/APIREST/ApiREST/models"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
